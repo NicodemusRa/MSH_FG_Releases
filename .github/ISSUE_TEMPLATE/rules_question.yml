@@ -1,0 +1,18 @@
+name: Rules accuracy or data error
+description: A character, power or rule does not match the book
+labels: [data]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Record or rule (for example "Aurora, GH1" or "Slam")
+    validations: {required: true}
+  - type: textarea
+    id: book
+    attributes:
+      label: What the book says (book and page number only, please do not paste the text)
+    validations: {required: true}
+  - type: textarea
+    id: found
+    attributes:
+      label: What the ruleset or module shows

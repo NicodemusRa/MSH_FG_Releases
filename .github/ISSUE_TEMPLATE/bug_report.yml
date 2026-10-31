@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in the ruleset or a module is broken or wrong
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Ruleset version
+      description: Shown in the chat announcement when the campaign loads (for example v0.42.1)
+    validations: {required: true}
+  - type: input
+    id: fgu
+    attributes:
+      label: Fantasy Grounds Unity version and OS
+  - type: textarea
+    id: modules
+    attributes:
+      label: Modules loaded
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations: {required: true}
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+    validations: {required: true}
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, chat output, or console errors
+      description: Run /selftest and paste the result if it looks rules-related. Please do not paste book text or upload book pages.
