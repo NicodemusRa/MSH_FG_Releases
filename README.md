@@ -4,6 +4,16 @@ An unofficial, fan-made ruleset for the 1984 TSR *Marvel Super Heroes* Advanced 
 
 This project is not affiliated with or endorsed by Marvel, Disney, TSR or Wizards of the Coast. It is for personal use with books you own.
 
+## Screenshots
+
+![Aurora (GH1) NPC sheet](screenshots/npc_sheet_aurora.png)
+
+*An NPC from the Gamers Handbook modules: ability ranks, Health, Karma, identity and FEAT options.*
+
+![Hero sheet and FEAT rolls](screenshots/hero_sheet_and_roll.png)
+
+*A hero sheet with FEAT rolls. Every roll's chat card lists the column, each shift and the net result.*
+
 ## What the ruleset does
 
 - FASERIP character sheets: abilities, Health, Karma, Resources, Popularity, powers, talents and contacts.
